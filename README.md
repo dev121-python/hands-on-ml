@@ -31,3 +31,20 @@ Yes. Given a real-world dataset, I would:
 - A reported metric may be misleading if the evaluation protocol allows information from validation or test data to influence training.
 - Common causes include data leakage, improper train–test splitting, preprocessing performed on the full dataset, or repeated tuning on the test set.
 - In such cases, the metric appears high, but the model fails to generalize to truly unseen real-world data..
+
+# What happens if you tune hyperparameters on the test set?
+- If you tune on test set:
+- Test set becomes part of training
+- Test error becomes meaningless
+- You have no true measure of generalization
+
+# Difference between cross-validation and a validation set?
+# Validation Set
+- One fixed split
+- Simple
+- Can be noisy (depends on luck of split)
+# Cross-Validation
+- Multiple splits (k-fold)
+- Average performance
+- More reliable
+- Slower but safer when data is small
