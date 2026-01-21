@@ -60,13 +60,13 @@
 
 - Both measure performance across thresholds, but they answer different questions.
 
-- Precision–Recall Curve
+## Precision–Recall Curve
 
 - Best for imbalanced datasets
 
 - Focuses on positive class performance
 
-- ROC Curve
+## ROC Curve
 
 - Plots TPR vs FPR
 
