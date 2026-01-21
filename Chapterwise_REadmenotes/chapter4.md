@@ -11,3 +11,4 @@
 ## Normal equation
 - it is an equation which gives the value of theta which minimizes the cost function
 - θ = (X^T X)^−1 X^T y
+- ![alt text](image.png)
