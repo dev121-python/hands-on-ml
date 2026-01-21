@@ -5,8 +5,8 @@
 
 - This chapter shifts focus from model training → model evaluation and decision-making.
 
-# Key Ideas I Learned
-- 1️⃣ Binary Classification Is About Trade-offs
+## Key Ideas I Learned
+# 1️⃣ Binary Classification Is About Trade-offs
 
 - Most classifiers output scores or probabilities, not final decisions.
 
@@ -16,11 +16,11 @@
 
 - Changing the threshold does not change the model — only how we use it
 
-# Insight:
+- Insight:
 
 - Model performance depends as much on the threshold as on the algorithm.
 
-- 2️⃣ Accuracy Is a Weak Metric (Often Misleading)
+# 2️⃣ Accuracy Is a Weak Metric (Often Misleading)
 
 - Accuracy fails badly when:
 
@@ -40,7 +40,7 @@
 
 - F1-score → Balance between precision and recall(Harmonic mean of precision and recall)
 
-- 3️⃣ Confusion Matrix = Ground Truth of Evaluation
+# 3️⃣ Confusion Matrix = Ground Truth of Evaluation
 
 - The confusion matrix shows what kind of mistakes the model makes.
 
@@ -56,7 +56,7 @@
 
 - Metrics are summaries; confusion matrix is reality.
 
-- 4️⃣ Precision–Recall vs ROC Curves
+# 4️⃣ Precision–Recall vs ROC Curves
 
 - Both measure performance across thresholds, but they answer different questions.
 
@@ -76,7 +76,7 @@
 
 - If positives are rare → use Precision–Recall, not ROC.
 
-- 5️⃣ Multiclass Classification Strategies
+# 5️⃣ Multiclass Classification Strategies
 
 - Most classifiers are binary by nature.
 
@@ -102,7 +102,7 @@
 
 - Evaluation must be adapted accordingly.
 
-#7️⃣ Error Analysis Matters More Than Metrics
+# 7️⃣ Error Analysis Matters More Than Metrics
 
 - Instead of blindly improving scores:
 
