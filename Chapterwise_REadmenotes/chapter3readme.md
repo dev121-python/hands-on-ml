@@ -72,7 +72,7 @@
 
 - Can look good even when precision is poor
 
-- Rule of thumb:
+## Rule of thumb:
 
 - If positives are rare → use Precision–Recall, not ROC.
 
